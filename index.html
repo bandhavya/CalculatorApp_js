@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+    <script type="text/javascript" src="calculator.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <h1>Calculator Sample Application</h1>
+    <hr>
+</head>
+
+<body>
+    <div id="btn"></div>
+    <hr>
+    <script type="text/javascript">
+    console.log(calculator);
+
+    var calculatorIcon1 = new calculator();
+    document.getElementById('btn').appendChild(document.createTextNode('hello FirstDiv'));
+    document.getElementById('btn').appendChild(calculatorIcon1);
+
+    var calculatorIcon2 = new calculator();
+    document.getElementById('btn').appendChild(document.createTextNode('hello SecondDiv'));
+    document.getElementById('btn').appendChild(calculatorIcon2);
+
+    var calculatorIcon3 = new calculator();
+    document.getElementById('btn').appendChild(document.createTextNode('hello ThirdDiv'));
+    document.getElementById('btn').appendChild(calculatorIcon3);
+    </script>
+</body>
+
+</html>

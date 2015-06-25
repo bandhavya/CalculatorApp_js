@@ -1,0 +1,18 @@
+.clearButtonStyle {
+    width: 100%;
+    border-color: #96d1f8;
+    background: -webkit-linear-gradient(top, #3e779d, #65a9d7)
+}
+
+#calciOuterDiv {
+    width: 160px;
+    border: 1px solid #ccc;
+}
+
+.numberField {
+    width: 156px;
+}
+
+.calciButton {
+    width: 40px;
+}
